@@ -1,9 +1,12 @@
+import AppRouter from './AppRouter';
+import Header from './components/common/Header';
 
 function App() {
   return (
     <div>
-      <h1>Fvalley</h1>
-     
+      <AppRouter>
+        <Header></Header>
+      </AppRouter>
     </div>
   );
 }
